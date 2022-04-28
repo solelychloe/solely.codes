@@ -8,7 +8,10 @@ assignees: ''
 
 ---
 
-I have the Parallel Program emblem and I would like to get added to the Parallel Program List. I also understand that this website is not affiliated with Bungie, Inc. in any way.
+I have the Parallel Program emblem and I would like to get added to the Parallel Program List. 
+
+- [x] I understand that this website is not affiliated with Bungie, Inc. in any way.
 
 Bungie Name:
-Contribution:
+
+My contribution:
