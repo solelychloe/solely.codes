@@ -25,11 +25,61 @@ Some credit goes to Espi (sysdotini). Thank you!
     --levante: #87D3C6;
     --littlelight: #9e88ffcc;
     --scrublandeux: #9fdd18;
-    --tid: #4A8A8A;
+    --tid: #51a8a8;
     --trials: #EAD884;
 }
 
 /* Custom */
+.charlemagne h2 a, .charlemagne li a { color: var(--charlemagne); }
+.charlemagne hr { border-color: var(--charlemagne); }
+
+.d2ls h2 a, .d2ls li a { color: var(--d2ls); }
+.d2ls hr { border-color: var(--d2ls); }
+
+.dim h2 a, .dim li a { color: var(--dim); }
+.dim hr { border-color: var(--dim); }
+
+.drecipes h2 a, .drecipes li a { color: var(--drecipes); }
+.drecipes hr { border-color: var(--drecipes); }
+
+.dsets h2 a, .dsets li a { color: var(--dsets); }
+.dsets hr { border-color: var(--dsets); }
+
+.dtracker h2 a, .dtracker li a { color: var(--dtracker); }
+.dtracker hr { border-color: var(--dtracker); }
+
+.ghost h2 a, .ghost li a { color: var(--ghost); }
+.ghost hr { border-color: var(--ghost); }
+
+.gtheater h2 a, .gtheater li a { color: var(--gtheater); }
+.gtheater hr { border-color: var(--gtheater); }
+
+.ishtarcoll h2 a, .ishtarcoll li a { color: var(--ishtarcoll); }
+.ishtarcoll hr { border-color: var(--ishtarcoll); }
+
+.ishtarcomm h2 a, .ishtarcomm li a { color: var(--ishtarcomm); }
+.ishtarcomm hr { border-color: var(--ishtarcomm); }
+
+.levante h2 a, .levante li a { color: var(--levante); }
+.levante hr { border-color: var(--levante); }
+
+.littlelight h2 a, .littlelight li a { color: var(--littlelight); }
+.littlelight hr { border-color: var(--littlelight); }
+
+.scrublandeux h2 a, .scrublandeux li a { color: var(--scrublandeux); }
+.scrublandeux hr { border-color: var(--scrublandeux); }
+
+.tid h2 a, .tid li a { color: var(--tid); }
+.tid hr { border-color: var(--tid); }
+
+.trials h2 a, .trials li a { color: var(--trials); }
+.trials hr { border-color: var(--trials); }
+
+.fa-external-link { 
+    font-size: 0.35em; 
+    vertical-align: super;
+}
+
 .parallel > div {
     float: left; 
     padding-right: 12px;
@@ -40,66 +90,6 @@ Some credit goes to Espi (sysdotini). Thank you!
     border-radius: 100%; 
     margin-bottom: 0px;
 }
-
-.charlemagne h2 a,
-.charlemagne li a { color: var(--charlemagne); }
-.charlemagne hr { border-color: var(--charlemagne); }
-
-.d2ls h2 a,
-.d2ls li a { color: var(--d2ls); }
-.d2ls hr { border-color: var(--d2ls); }
-
-.dim h2 a, 
-.dim li a { color: var(--dim); }
-.dim hr { border-color: var(--dim); }
-
-.drecipes h2 a,
-.drecipes li a { color: var(--drecipes); }
-.drecipes hr { border-color: var(--drecipes); }
-
-.dsets h2 a,
-.dsets li a { color: var(--dsets); }
-.dsets hr { border-color: var(--dsets); }
-
-.dtracker h2 a,
-.dtracker li a { color: var(--dtracker); }
-.dtracker hr { border-color: var(--dtracker); }
-
-.ghost h2 a,
-.ghost li a { color: var(--ghost); }
-.ghost hr { border-color: var(--ghost); }
-
-.gtheater h2 a,
-.gtheater li a { color: var(--gtheater); }
-.gtheater hr { border-color: var(--gtheater); }
-
-.ishtarcoll h2 a,
-.ishtarcoll li a { color: var(--ishtarcoll); }
-.ishtarcoll hr { border-color: var(--ishtarcoll); }
-
-.ishtarcomm h2 a,
-.ishtarcomm li a { color: var(--ishtarcomm); }
-.ishtarcomm hr { border-color: var(--ishtarcomm); }
-
-.levante h2 a,
-.levante li a { color: var(--levante); }
-.levante hr { border-color: var(--levante); }
-
-.littlelight h2 a,
-.littlelight li a { color: var(--littlelight); }
-.littlelight hr { border-color: var(--littlelight); }
-
-.scrublandeux h2 a,
-.scrublandeux li a { color: var(--scrublandeux); }
-.scrublandeux hr { border-color: var(--scrublandeux); }
-
-.tid h2 a,
-.tid li a { color: var(--tid); }
-.tid hr { border-color: var(--tid); }
-
-.trials h2 a,
-.trials li a { color: var(--trials); }
-.trials hr { border-color: var(--trials); }
 
 .icon {
     color: var(--accent-color);
@@ -115,8 +105,7 @@ Some credit goes to Espi (sysdotini). Thank you!
 .links { font-size: 2.6em; }
 
 .links > a, 
-.links > a:hover, 
-.links > a:visited {
+.links > a:hover, .links > a:visited {
     border-bottom: 0px;
     transition: all 0.2s;
     -webkit-transition: all 0.2s;
