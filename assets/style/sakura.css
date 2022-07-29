@@ -13,7 +13,6 @@ Some credit goes to Espi (sysdotini). Thank you!
 
     /* Parallel Program */
     --charlemagne: #e2dbdbb2;
-    --d2ls: #8880b6;
     --dim: #F37422;
     --drecipes: #C8435D;
     --dsets: #57B2AD;
@@ -24,6 +23,7 @@ Some credit goes to Espi (sysdotini). Thank you!
     --ishtarcomm: #d6d6d6c5;
     --levante: #87D3C6;
     --littlelight: #9e88ffcc;
+    --ls: #8880b6;
     --scrublandeux: #9fdd18;
     --tid: #51a8a8;
     --trials: #EAD884;
@@ -32,9 +32,6 @@ Some credit goes to Espi (sysdotini). Thank you!
 /* Custom */
 .charlemagne h2 a, .charlemagne li a { color: var(--charlemagne); }
 .charlemagne hr { border-color: var(--charlemagne); }
-
-.d2ls h2 a, .d2ls li a { color: var(--d2ls); }
-.d2ls hr { border-color: var(--d2ls); }
 
 .dim h2 a, .dim li a { color: var(--dim); }
 .dim hr { border-color: var(--dim); }
@@ -66,6 +63,9 @@ Some credit goes to Espi (sysdotini). Thank you!
 .littlelight h2 a, .littlelight li a { color: var(--littlelight); }
 .littlelight hr { border-color: var(--littlelight); }
 
+.ls h2 a, .ls li a { color: var(--ls); }
+.ls hr { border-color: var(--ls); }
+
 .scrublandeux h2 a, .scrublandeux li a { color: var(--scrublandeux); }
 .scrublandeux hr { border-color: var(--scrublandeux); }
 
@@ -90,6 +90,9 @@ Some credit goes to Espi (sysdotini). Thank you!
     border-radius: 100%; 
     margin-bottom: 0px;
 }
+
+.parallel-img { float: right; }
+.parallel-img-alt { float: right; margin-top: 20px; }
 
 .icon {
     color: var(--accent-color);
