@@ -75,9 +75,28 @@ Some credit goes to Espi (sysdotini). Thank you!
 .trials h2 a, .trials li a { color: var(--trials); }
 .trials hr { border-color: var(--trials); }
 
+
 .fa-external-link { 
     font-size: 0.35em; 
     vertical-align: super;
+}
+
+.icon {
+    color: var(--accent-color);
+    float: right;
+}
+
+#ishtarcomm {
+    filter: grayscale(1);
+}
+
+.links { font-size: 2.6em; }
+
+.links > a, 
+.links > a:hover, .links > a:visited {
+    border-bottom: 0px;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
 }
 
 .parallel > div {
@@ -92,26 +111,15 @@ Some credit goes to Espi (sysdotini). Thank you!
 }
 
 .parallel-img { float: right; }
-.parallel-img-alt { float: right; margin-top: 20px; }
-
-.icon {
-    color: var(--accent-color);
-    float: right;
+.parallel-img-alt { 
+    float: right; 
+    margin-top: 20px;
 }
 
 .subtitle {
     margin-bottom: 0.1em;
     font-size: 1.2em;
     line-height: 0.5em;
-}
-
-.links { font-size: 2.6em; }
-
-.links > a, 
-.links > a:hover, .links > a:visited {
-    border-bottom: 0px;
-    transition: all 0.2s;
-    -webkit-transition: all 0.2s;
 }
 
 /* Body */
@@ -170,9 +178,7 @@ p {
     margin-bottom: 2.5rem; 
 }
 
-small, sub, sup {
-    font-size: 75%; 
-}
+small, sub, sup { font-size: 75%; }
 
 hr { border-color: var(--accent-color); }
 
@@ -284,6 +290,7 @@ textarea { width: 100%; }
     cursor: default;
     opacity: .5; 
 }
+
 .button:focus:enabled, .button:hover:enabled, button:focus:enabled, button:hover:enabled, input[type="submit"]:focus:enabled, input[type="submit"]:hover:enabled, input[type="reset"]:focus:enabled, input[type="reset"]:hover:enabled, input[type="button"]:focus:enabled, input[type="button"]:hover:enabled {
     background-color: var(--hover-color);
     border-color: var(--hover-color);
@@ -302,6 +309,7 @@ textarea, select, input {
     box-shadow: none;
     box-sizing: border-box; 
 }
+
 textarea:focus, select:focus, input:focus {
     border: 1px solid var(--accent-color);
     outline: 0; 
